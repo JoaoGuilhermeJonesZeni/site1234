@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1ffd1; /* Fundo verde */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #86F580; /* Fundo branco para o header */
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Footer */
+.footer {
+    background-color: #86F580; /* Fundo verde */
+    color: #000000; /* Texto branco */
+    text-align: center;
+    padding: 46px;
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra na parte superior */
+}
+
+.footer p {
+    margin: 5px 0; /* Espaçamento entre os parágrafos */
+    font-size: 14px;
+}
+
+/* Link da Logo */
+.logo-link {
+    margin-right: auto; /* Empurra a logo para a esquerda */
+}
+
+.logo {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens do menu */
+    position: absolute; /* Posiciona o menu no centro */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta o posicionamento */
+}
+
+.menu-item {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    padding: 10px 20px; /* Espaçamento interno */
+    border: 2px solid #28a745; /* Borda verde */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #fff; /* Fundo branco */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #28a745; /* Fundo verde ao passar o mouse */
+    color: #fff; /* Texto branco ao passar o mouse */
+}
+
+/* Conteúdo Principal */
+.main-container {
+    background-color: #fff; /* Fundo branco para o contêiner */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 1200px; /* Aumentei a largura máxima para acomodar o layout */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Layout Flexível */
+.content-layout {
+    display: flex;
+    gap: 20px; /* Espaçamento entre as seções */
+}
+
+/* Seção de Informações (Esquerda) */
+.info-section {
+    flex: 1; /* Ocupa 50% do espaço disponível */
+}
+
+.info-section h2 {
+    color: #28a745; /* Verde para os títulos */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.info-section p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Imagem e Riqueza Animal (Direita) */
+.image-animal-section {
+    flex: 1; /* Ocupa 50% do espaço disponível */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaçamento entre a imagem e a seção de riqueza animal */
+}
+
+/* Imagem do Bioma */
+.bioma-image-container {
+    text-align: center;
+}
+
+.bioma-image {
+    width: 100%; /* A imagem ocupa toda a largura do contêiner */
+    max-width: 500px; /* Limita o tamanho máximo da imagem */
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas para a imagem */
+}
+
+/* Riqueza Animal */
+.animal-section {
+    margin-top: 0;
+}
+
+.animal-section h2 {
+    color: #28a745; /* Verde para o título */
+    margin-bottom: 10px;
+}
+
+.animal-section ul {
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    padding: 0;
+}
+
+.animal-section li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.animal-section strong {
+    color: #28a745; /* Verde para os títulos das categorias */
+}

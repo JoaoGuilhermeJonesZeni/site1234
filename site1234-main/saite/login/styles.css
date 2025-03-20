@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1ffd1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff; /* Fundo branco para o contêiner */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 280px;
+}
+
+a {
+    width: 180PX;
+    padding: 10px;
+    background-color: #28a745; /* Botão verde */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #218838; /* Verde mais escuro ao passar o mouse */
+}
+
+.decorative-image {
+    width: 100%; /* Ajuste o tamanho conforme necessário */
+    margin-top: 20px;
+}
+
+p {
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
